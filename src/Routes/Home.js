@@ -9,6 +9,7 @@ import Project from './Project';
 import Footer from '../Components/Footer';
 import Contact from './Contact';
 import profile from "../images/myPhoto.png";
+import { FaBars } from 'react-icons/fa';
 
 const LeftBox = styled.div`
   flex: 1;
@@ -104,7 +105,7 @@ const Button = styled.button`
   }
 `;
 
-const MenuIcon = styled.button`
+const MenuIcon = styled.div`
   background-color: ${(props) => (props.isMenuOpen ? "#2196f3" : "#eee")};
   color: ${(props) => (props.isMenuOpen ? "#fff" : "#333")};
   font-size: 22px;
@@ -203,7 +204,7 @@ const Home = () => {
             onClick={toggleMenu}
             isMenuOpen={isMenuOpen}
           >
-            Menu
+            <FaBars/>
           </MenuIcon>
         </div>
         <div>

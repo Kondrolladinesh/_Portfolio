@@ -16,6 +16,7 @@ const Content = styled.p`
   justify-content:center;
   align-items: center;
   padding: 0px 50px;
+  text-align: justify;
 `;
 
 const About = () => {

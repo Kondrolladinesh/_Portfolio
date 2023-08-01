@@ -7,6 +7,7 @@ const Cardcontainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 `;
 
 const Text = styled.h2`
@@ -23,8 +24,6 @@ const project = () => {
         <Text>Projects</Text>
         <div style={{ flex: 1, backgroundColor: "#6F38C5", height: "3px", margin: "0px 50px 0px 50px"}} />
       <Cardcontainer>
-        {/* <Text>Projects</Text>
-        <div style={{ flex: 1, backgroundColor: "#6F38C5", height: "3px", margin: "0px 50px 0px 50px"}} /> */}
         <CardView/>
       </Cardcontainer>
     </div>
