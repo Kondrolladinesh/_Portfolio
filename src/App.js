@@ -11,9 +11,9 @@ function App() {
   return (
       <>
         <ThemeProvider theme={theme}>
-          <BrowserRouter basename='/portfolio'>
+          <BrowserRouter basename='/_portfolio'>
             <Routes>
-                <Route exact path='/portfolio' component={Home} />
+                <Route exact path='/_portfolio' component={Home} />
                 <Route path='/project' element={<Project/>} />
                 <Route path='/about' element={<About />} />
                 <Route path='/contact' element={<Contact />} />
