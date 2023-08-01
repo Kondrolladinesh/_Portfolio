@@ -168,6 +168,7 @@ const Home = () => {
   return (
     <div>
       <Navbar>
+        
         <div>
           <h1 style={{ margin: "30px" }}>Portfolio</h1>
         </div>
