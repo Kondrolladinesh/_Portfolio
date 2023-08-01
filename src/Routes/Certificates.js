@@ -2,6 +2,14 @@ import React from 'react';
 import styled from "styled-components";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import img1 from "../images/Fundamentals_Of_Network_Communication.png";
+import img2 from "../images/Local_Area_Networks_(CNDS).png";
+import img3 from "../images/Packet_Switching_Networks_and_Algorithms.png";
+import img4 from "../images/Computer_Networks_Total_Courses.png";
+import img5 from "../images/AppWithKotlin.png";
+import img6 from "../images/C_Certificate.png";
+import img7 from "../images/java_for_android.png";
+import img8 from "../images/Google_Cloud_Career_Readiness.png";
 
 const Container = styled.div`
   display:flex;
@@ -75,31 +83,31 @@ const Certificates = () => {
       <Container>
         <CustomCarousel autoPlay axis="horizontal" infiniteLoop >
             <div>
-                <CustomImg src="./images/Fundamentals_Of_Network_Communication.png" alt="Fundamentals_Of_Network_Communication" />
+                <CustomImg src={img1} alt="Fundamentals_Of_Network_Communication" />
                 <p className="legend">Fundamentals Of Network Communication</p>
             </div>
             <div>
-                <CustomImg src="./images/Local_Area_Networks_(CNDS).png" alt="Local_Area_Networks_(CNDS)" />
+                <CustomImg src={img2} alt="Local_Area_Networks_(CNDS)" />
                 <p className="legend">Local Area Networks</p>
             </div>
             <div>
-                <CustomImg src="./images/Packet_Switching_Networks_and_Algorithms.png" alt="Packet_Switching_Networks_and_Algorithms" />
+                <CustomImg src={img3} alt="Packet_Switching_Networks_and_Algorithms" />
                 <p className="legend">Packet Switching Networks and Algorithms</p>
             </div>
             <div>
-                <CustomImg src="./images/Computer_Networks_Total_Courses.png" alt="Computer_Networks_Total_Courses" />
+                <CustomImg src={img4} alt="Computer_Networks_Total_Courses" />
                 <p className="legend">Computer Networks Total Courses</p>
             </div>
             <div>
-                <CustomImg src="./images/AppWithKotlin.png" alt="C_certificate" />
+                <CustomImg src={img5} alt="C_certificate" />
                 <p className="legend">Android App with Kotlin</p>
             </div>
             <div>
-                <CustomImg src="./images/C_Certificate.png" alt="C_certificate" />
+                <CustomImg src={img6} alt="C_certificate" />
                 <p className="legend">C programming for Everyone</p>
             </div>
             <div>
-                <CustomImg src="./images/java_for_android.png" alt='java_for_android_certificate' />
+                <CustomImg src={img7} alt='java_for_android_certificate' />
                 <p className="legend">Java For Android</p>
             </div>
         </CustomCarousel>
@@ -109,7 +117,7 @@ const Certificates = () => {
         <Container>
           <CustomCarousel autoPlay axis="horizontal" infiniteLoop >
               <div>
-                  <CustomImg src="./images/Google_Cloud_Career_Readiness.png" alt="Google_Cloud_Career_Readiness" />
+                  <CustomImg src={img8} alt="Google_Cloud_Career_Readiness" />
                   <p className="legend">Google_Cloud_Career_Readiness</p>
               </div>
           </CustomCarousel>

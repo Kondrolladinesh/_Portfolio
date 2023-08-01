@@ -8,6 +8,7 @@ import About from './About';
 import Project from './Project';
 import Footer from '../Components/Footer';
 import Contact from './Contact';
+import profile from "../images/myPhoto.png";
 
 const LeftBox = styled.div`
   flex: 1;
@@ -168,7 +169,7 @@ const Home = () => {
   return (
     <div>
       <Navbar>
-        
+
         <div>
           <h1 style={{ margin: "30px" }}>Portfolio</h1>
         </div>
@@ -238,7 +239,7 @@ const Home = () => {
       <Container>
         <LeftBox>
             <Heading>My Profile</Heading>
-            <ProfilePicture src="./images/myPhoto.png" alt="Profile" />
+            <ProfilePicture src={profile} alt="Profile" />
             <Text>Kondrolla<br />Dinesh Reddy</Text>
             <DetailContainer>
               <Details> <AiFillMail/> &nbsp;dineshreddykondrolla@gmail.com</Details>
